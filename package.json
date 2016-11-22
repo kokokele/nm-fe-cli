@@ -1,0 +1,33 @@
+{
+    "name": "nm-fe-cli",
+    "version": "0.0.1",
+    "description": "快速部署nuomi前端开发环境",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bin": {
+        "nm-fe-cli": "bin/nm-fe-cli"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kokokele/nm-fe-cli.git"
+    },
+    "keywords": [
+        "nm-fe-cli",
+        "cli",
+        "nm-fe"
+    ],
+    "author": "kele",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kokokele/nm-fe-cli/issues"
+    },
+    "homepage": "https://github.com/kokokele/nm-fe-cli/#readme",
+    "dependencies": {
+        "chalk": "^1.1.3",
+        "co": "^4.6.0",
+        "co-prompt": "^1.0.0",
+        "commander": "^2.9.0"
+    }
+}
